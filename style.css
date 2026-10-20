@@ -1,0 +1,14 @@
+:root{--bg:#F7F2EA;--card:#FFFCF7;--ink:#2B211A;--ink2:#6B5E54;--rule:#E2D7C9;--accent:#7A4A2B}
+@media (prefers-color-scheme:dark){:root{--bg:#16120F;--card:#28211C;--ink:#F3ECE3;--ink2:#BFB2A6;--rule:#3A3029;--accent:#D9A67E}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN",sans-serif;line-height:1.8;font-size:16px}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
+header{margin-bottom:24px}
+.eyebrow{font-size:12px;letter-spacing:.2em;color:var(--ink2);text-transform:uppercase}
+h1{font-size:26px;margin:4px 0 8px}
+h2{font-size:18px;margin:32px 0 8px;padding-top:16px;border-top:1px solid var(--rule)}
+p,li{color:var(--ink)}
+.muted{color:var(--ink2);font-size:14px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:16px 20px;margin:16px 0}
+a{color:var(--accent)}
+nav a{margin-right:16px;font-size:14px}
